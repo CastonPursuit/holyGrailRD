@@ -1,12 +1,6 @@
 @import "./variables";
 @import "./setup";
 
-// $delft_blue: #2F3061;
-// $naples_yellow: #FFE66D;
-// $jet_black: #343434;
-// $mint_cream: #F7FFF7;
-/// air_blue
-
 .grid-container {
     position: absolute;
     background-color: $jet_black;
@@ -47,21 +41,5 @@ footer {
     grid-area: footer;
 }
 
-@media (min-width: 471px) { /// stay green until ... or this is true until 200px
 
 
-}
-
-@media (max-width: 600px) { /// stay green until ... or this is true until 200px. whaterver is inside this media query needs to 
-    /// be seen until it past the max width. inside the query is true until the max width 
-    .grid-container {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "header"
-        "nav"
-        "main"
-        "aside"
-        "footer"
-        ;
-    }
-}

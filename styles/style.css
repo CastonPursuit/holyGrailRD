@@ -46,11 +46,4 @@ footer {
   grid-area: footer;
 }
 
-@media (max-width: 600px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "nav" "main" "aside" "footer";
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
